@@ -1,0 +1,25 @@
+{
+  "name": "simple-timer-webextension",
+  "version": "1.0.0",
+  "description": "A simple timer webextension",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "Kacper Herchel",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.2.4",
+    "webpack-webextension-plugin": "^0.3.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.134",
+    "css-loader": "^5.2.2",
+    "mini-css-extract-plugin": "^1.5.0",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^8.1.0",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0"
+  }
+}

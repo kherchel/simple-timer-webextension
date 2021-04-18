@@ -1,0 +1,1 @@
+(()=>{"use strict";chrome.browserAction.onClicked.addListener((function(e){console.log("TESTING"),chrome.tabs.executeScript({file:"/timer.js"})}))})();

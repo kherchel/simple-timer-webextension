@@ -1,0 +1,52 @@
+#simple-timer {
+  display: flex;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: white;
+  z-index: 1000;
+  margin: 8px;
+  padding: 4px;
+  border-radius: 8px;
+  box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.2);
+  align-items: center;
+}
+
+.btn {
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 6px;
+  background-color: #6c3ef8;
+  transition: ease-in-out 0.15s all;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  width: 64px;
+}
+
+.close {
+  color: black;
+  background-color: transparent;
+  width: unset;
+  font-weight: normal;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+span {
+  color: #413e49;
+  font-size: 18px;
+  flex: 1;
+  text-align: center;
+  padding: 0 18px;
+}
